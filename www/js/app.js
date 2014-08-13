@@ -2,7 +2,7 @@ angular.module('sweetchApp', ['ionic', 'sweetchApp.controllers', 'sweetchApp.dir
 
 .run(function ($rootScope, $state, $ionicPlatform, $window, OpenFB) {
 
-  OpenFB.init('FB_APP_ID', 'http://localhost:8100/oauthcallback.html');
+  OpenFB.init('361784760643888', 'http://mysterious-oasis-3240.herokuapp.com/oauthcallback.html');
 
   $ionicPlatform.ready(function () {
     console.log('Platform ready');

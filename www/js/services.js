@@ -134,7 +134,7 @@ angular.module('sweetchApp.services', [])
 })
 
 .factory('API', function($http) {
-  var baseUrl = 'API_URL'
+  var baseUrl = 'http://mysterious-oasis-3240.herokuapp.com/'
 
   var serialize = function (obj) {
     var str = [];

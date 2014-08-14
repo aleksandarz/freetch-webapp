@@ -134,7 +134,7 @@ angular.module('sweetchApp.services', [])
 })
 
 .factory('API', function($http) {
-  var baseUrl = 'https://developers.facebook.com/apps/361784760643888'
+  var baseUrl = 'API_URL'
 
   var serialize = function (obj) {
     var str = [];
